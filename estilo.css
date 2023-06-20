@@ -7,14 +7,13 @@ body {
 #icone{
    display: inline-block;
    width: 5%;
-   top: 13%;
+   top: 12%;
    left: 3%;
    position: absolute;
-   box-shadow: 1px 1px 5px #808080;
 }
 
 #imglivrosfera {
-    width: 100%;
+    width: 60%;
     position: absolute;
     top: 51%;
     left: 50%;
@@ -23,12 +22,12 @@ body {
 
 #slogan{
 	text-align: center;
-	width: 45%;
-  position: absolute;
-  font-size: 15px;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	width: 35%;
+  	position: absolute;
+  	font-size: 15px;
+  	top: 85%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 /*Formatação do Menu*/
@@ -44,7 +43,7 @@ nav#menu ul{
 	position: absolute;
 	top: 0%;
 	left: 10%;
-	font-size: 50%;
+	font-size: 120%;
 }
 
 nav#menu li{
@@ -75,7 +74,32 @@ nav#iniciolivrosfera ul{
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 6%;
-	left: 4%;	
-	font-size: 80%;
+	top: 12%;
+	left: 6%;	
+	font-size: 180%;
+}
+
+/*Estilo responsivo */
+
+@media screen and (max-width: 768px) {
+
+  #imglivrosfera {
+    width: 80%;
+  }
+
+  #slogan {
+    width: 70%;
+    font-size: 12px;
+    top: 80%;
+  }
+
+  nav#menu ul {
+    font-size: 50%;
+  }
+
+  nav#iniciolivrosfera ul {
+    font-size: 100%;
+  }
+
+
 }

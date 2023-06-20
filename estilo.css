@@ -16,14 +16,9 @@ body {
 #imglivrosfera {
     width: 100%;
     position: absolute;
-    opacity: 0.6;
     top: 51%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
-
-#imglivrosfera:hover{
-  opacity: 1;
 }
 
 #slogan{

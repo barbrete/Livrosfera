@@ -1,0 +1,281 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #FBDDBB;
+  color: #71421E;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+/* Formatação do Menu */
+
+nav#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#icone {
+  display: inline-block;
+  width: 3%;
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+nav#menu ul {
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav#menu li {
+  margin: 0 10px;
+}
+
+nav#menu h1 {
+  display: none;
+}
+
+nav#menu a{
+  color: #71421E;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav#menu a:hover {
+  color: #FF8C00;
+}
+
+nav li {
+  position: relative;
+}
+
+nav li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: none;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav li ul li {
+  display: block;
+  width: 100%;
+}
+
+nav li ul li a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; 
+}
+
+#search-form {
+  position: relative;
+}
+
+#search-input {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  width: 200px;
+  transition: box-shadow 0.3s ease;
+}
+
+#search-input:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#search-input::placeholder {
+  color: #aaa;
+}
+
+#lupa {
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#lupa i {
+  color: #71421e;
+  font-size: 16px;
+}
+
+.titulo{
+	text-align: center;
+	width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/*Criando caixas*/
+.branco{
+  background-color: white;
+}
+
+#topicos {
+  text-align: center;
+}
+
+#topicos ul {
+  list-style: none;
+}
+
+#topicos li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.um {
+	text-align: center;
+    background: rgb(251, 221, 187);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    opacity: 0.8;
+}
+
+.um:hover{
+  opacity: 1;
+}
+
+.dois{
+	text-align: center;
+    background: rgb(234,208,193);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    opacity: 0.8;
+}
+
+.dois:hover{
+  opacity: 1;
+}
+
+.tres{
+	text-align: center;
+    background: rgb(221,210,206);
+    width: 1200px;
+    height: 150px;
+    border-radius: 110px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;    
+    color: black;
+    opacity: 0.8;
+}
+
+.tres:hover{
+  opacity: 1;
+}
+
+.mapa{
+  text-align: center;
+  padding: 3em 30px;
+}
+
+/*Rodapé*/
+footer {
+  margin-top: auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #71421E;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+}
+
+.footer-social-icons i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #71421E;
+  border-radius: 50%;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.fa-facebook-f {
+  color: #ffffff;
+}
+
+.fa-twitter {
+  color: #ffffff;
+}
+
+.fa-instagram {
+  color: #ffffff;
+}
+

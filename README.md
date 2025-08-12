@@ -39,7 +39,8 @@ O layout foi planejado para funcionar tanto em **desktop** quanto em **dispositi
 
 #### Categorias
 <img width="928" height="580" alt="image" src="https://github.com/user-attachments/assets/f3fff079-2e1f-4f15-b06b-5e0cfcb810d1" />
-*Veja as outras páginas acessando https://barbrete.github.io/Livrosfera/ ou clonando o repositório.*
+
+  *Veja as outras páginas acessando https://barbrete.github.io/Livrosfera/ ou clonando o repositório.*
 
 ## 📌 Status
 
